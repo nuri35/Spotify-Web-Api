@@ -28,12 +28,5 @@ Bu projede projenin hızlılığı ön planda olması amacıyla modül paketleyi
  ## 🙈: Proje içinden görüntüler
  
  
-![](Images/AnaSayfa.PNG)
+![](images)
 
-![](https://raw.githubusercontent.com/bahabayar/HousingEstateManagement/master/Images/Bor%C3%A7lar%20Listesi.PNG)
-
-![](https://raw.githubusercontent.com/bahabayar/HousingEstateManagement/master/Images/Daire%20Liste.PNG)
-
-![](https://raw.githubusercontent.com/bahabayar/HousingEstateManagement/master/Images/Kullan%C4%B1c%C4%B1%20Ekleme.PNG)
-
-![](Images/Login.PNG)
