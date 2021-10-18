@@ -28,5 +28,21 @@ Bu projede projenin hızlılığı ön planda olması amacıyla modül paketleyi
  ## 🙈: Proje içinden görüntüler
  
  
-![](images/Ekran Alıntısı4.PNG)
+![](https://github.com/nuri35/Spotify-Web-Api/blob/master/images/Ekran%20Al%C4%B1nt%C4%B1s%C4%B14.PNG)
+![](https://github.com/nuri35/Spotify-Web-Api/blob/master/images/Ekran%20Al%C4%B1nt%C4%B1s%C4%B12.PNG)
+![](https://github.com/nuri35/Spotify-Web-Api/blob/master/images/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG)
+
+<h2> 🛠 &nbsp;Kullanılan Teknolojiler</h2>
+
+<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+
+
+<code><img height="30" 
+<code><img height="30" src="https://images.ctfassets.net/1es3ne0caaid/7wuyrM8ZvkK6lNfu5gGe4Q/c7d6ed6f6baefad59ca5c8fbb399155c/webpack-3-1.png"></code>
+<code><img height="30" src="https://images.ctfassets.net/1es3ne0caaid/7wuyrM8ZvkK6lNfu5gGe4Q/c7d6ed6f6baefad59ca5c8fbb399155c/webpack-3-1.png"></code>
+
+
+
+
+
 
