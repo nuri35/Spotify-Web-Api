@@ -28,5 +28,5 @@ Bu projede projenin hızlılığı ön planda olması amacıyla modül paketleyi
  ## 🙈: Proje içinden görüntüler
  
  
-![](images)
+![](images/Ekran Alıntısı4.PNG)
 
