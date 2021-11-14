@@ -1,5 +1,5 @@
 import  * as dısaaktarıfonk from "./tokenget"
-// import play from "./runmusic.js"
+
 
 
 
@@ -40,7 +40,7 @@ this.playing = true;
   
 
   async  APIController(){ 
-//gettok artık benım accesstokenım
+
     const gettok = await dısaaktarıfonk.tokenalma();
      const getrens =  await dısaaktarıfonk.turalma(gettok) ;
 
@@ -141,7 +141,7 @@ this.playing = true;
           
           
 
-             //"href,preview_url,uri,external_urls=>spotify
+        
 
 
               

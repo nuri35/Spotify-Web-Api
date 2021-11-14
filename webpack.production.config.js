@@ -34,14 +34,14 @@ path: path.resolve(__dirname, 'dist')
         }),
         new MiniCssExtractPlugin({
           filename:"[name].[hash:4].css"
-        }),//bu yarattıgımız css dosyasına alır csslerımızı yanı farklı dosyalara alır csslerımızı
+        }),
           new webpack.ProgressPlugin(),
           new CleanWebpackPlugin(),
           ],
         
 
          optimization: {
-         //  minimize:false, 
+       
           minimizer: [
             new TerserPlugin({
              
@@ -60,15 +60,12 @@ path: path.resolve(__dirname, 'dist')
           
           test: /\.s?css$/,
           use: [
-         //burda style loader yapmasın yanı jsdekı csslerı html dosyama gommesın
-         //dist ıcınde yaratılan css dosyasındakılerı
-         //websayfama gomsun verıdıgm ısımle ve dist ıcındede o dosyayı koyuuyor bura sayesınde
+        
            MiniCssExtractPlugin.loader,
            
           
-            "css-loader",//aslında tanımasına yarıyor bu loader
-            // main.js ıcınde tanımladıgmız ıcın main.bundıl.js
-            //ıcınde distte gorunuyordu ama mınıcssextract yapınca gorunmedı sadece main.cssde gorundu
+            "css-loader",
+          
         
             "sass-loader",
           ],
@@ -100,17 +97,4 @@ path: path.resolve(__dirname, 'dist')
 
     }
 
-      })//  sımdı netten bır buyuk verı cektın resım olabılır bu, ornegın 0.18snde ders 123 de anlatıyor
-      //hoca ama yenılenme cok da ıyı olmuyor  bu neden oluyor bulmayla ılgılı tum css lerı alıyor
-      //tabı bunu sasdan css cevırıyor  bundıl edılecek js ıcıne yazılıyor  zaten bızden kendı ındex.js
-      //dosyası ıcınde  bır scss dosyası import etmıstık webpackuyg dosyası ornegınde var  neyse sonra
-      //tum bunlar browsera geldıkten sonra bneım sayfamın head kısmına jsden alıp
-      // style olarak eklenıyor style.cssloader ıle onun
-      //ıcın yneıledıgımızde sayfayı oyle bır etkı goruyorum 
-      //ama bız sadece 1 css dosyasını style.css diye
-      // dist içindee eklese   ve onunda ıcıne webpackuyg uygulmasını dusunursek index.js de
-      //import ettıgmız css dosyalarını
-      //dosyadakı sccs dosyalarını eklese ne guzel olur ozman sorun ortadan kalkar ve head kısmına
-      //link kısmında   bir css dosyası yazmıs oluruz
-      //
-      //sonra bu uygulamada common.jsde prod.confg.jsde nelerın yazılcagını ıncele
+      })

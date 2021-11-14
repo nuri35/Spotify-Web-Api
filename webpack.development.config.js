@@ -19,7 +19,7 @@ module.exports =merge(common, {
           
              new HtmlWebpackPlugin({
             
-             template: './src/index.html' //kendı html yapımı korur
+             template: './src/index.html' 
          })],
         
          module:{
